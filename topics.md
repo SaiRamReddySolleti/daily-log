@@ -6,7 +6,7 @@ when the list runs dry the workflow proposes a new topic instead of stopping.
 
 ## ServiceNow — platform
 
-- [ ] GlideRecord vs GlideAggregate: when the row count actually matters
+- [x] GlideRecord vs GlideAggregate: when the row count actually matters
 - [ ] Why `setWorkflow(false)` is not a performance optimisation
 - [ ] Before vs after vs async business rules: the ordering that bites you
 - [ ] Display business rules and the `g_scratchpad` round trip

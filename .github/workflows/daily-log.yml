@@ -1,0 +1,50 @@
+name: Daily log
+
+on:
+  schedule:
+    # 14:00 UTC (09:00 America/Chicago, 19:30 IST) — mid-day in every relevant
+    # zone, so an entry never lands on an ambiguous day boundary.
+    - cron: "0 14 * * *"
+    # Second pass six hours later. It is a no-op when the morning run succeeded,
+    # so it costs nothing and quietly covers a failed or skipped first attempt.
+    - cron: "0 20 * * *"
+  workflow_dispatch:
+
+# Stop a retry from racing the scheduled run.
+concurrency:
+  group: daily-log
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  entry:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+
+      - name: Write today's entry
+        env:
+          ANTHROPIC_API_KEY: ${{ secrets.ANTHROPIC_API_KEY }}
+        run: python scripts/write_entry.py
+
+      - name: Commit and push
+        run: |
+          set -euo pipefail
+          # The author email is what the contribution graph keys on. It must be
+          # an address linked to the account — this is the GitHub-provided
+          # noreply one, which always is.
+          git config user.name  "Sai Ram Reddy Solleti"
+          git config user.email "146561533+SaiRamReddySolleti@users.noreply.github.com"
+          git add -A
+          if git diff --staged --quiet; then
+            echo "No changes to commit."
+            exit 0
+          fi
+          git commit -m "${ENTRY_MSG:-$(date -u +%F): daily entry}"
+          git push

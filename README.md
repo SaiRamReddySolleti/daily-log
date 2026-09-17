@@ -8,12 +8,13 @@ Written and committed automatically each morning by a
 [GitHub Actions workflow](.github/workflows/daily-log.yml); the topic backlog
 lives in [`topics.md`](topics.md).
 
-**3 entries** · browse them all in [`entries/`](entries/)
+**4 entries** · browse them all in [`entries/`](entries/)
 
 ## Recent
 
 | Date | Entry |
 | --- | --- |
+| `2026-09-17` | [Display business rules and the `g_scratchpad` round trip](entries/2026/2026-09-17.md) |
 | `2026-09-16` | [Before vs after vs async business rules: the ordering that bites you](entries/2026/2026-09-16.md) |
 | `2026-09-15` | [Why `setWorkflow(false)` is not a performance optimisation](entries/2026/2026-09-15.md) |
 | `2026-09-14` | [GlideRecord vs GlideAggregate: when the row count actually matters](entries/2026/2026-09-14.md) |

@@ -11,7 +11,7 @@ when the list runs dry the workflow proposes a new topic instead of stopping.
 - [x] Before vs after vs async business rules: the ordering that bites you
 - [x] Display business rules and the `g_scratchpad` round trip
 - [x] ACL evaluation order, and why a read ACL on a field silently wins
-- [ ] `GlideRecordSecure` vs `GlideRecord`: what "secure" covers
+- [x] `GlideRecordSecure` vs `GlideRecord`: what "secure" covers
 - [ ] Scoped apps and cross-scope privileges
 - [ ] Update sets: what they capture and what they quietly do not
 - [ ] Table rotation and why audit tables grow the way they do

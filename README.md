@@ -8,12 +8,13 @@ Written and committed automatically each morning by a
 [GitHub Actions workflow](.github/workflows/daily-log.yml); the topic backlog
 lives in [`topics.md`](topics.md).
 
-**6 entries** · browse them all in [`entries/`](entries/)
+**7 entries** · browse them all in [`entries/`](entries/)
 
 ## Recent
 
 | Date | Entry |
 | --- | --- |
+| `2026-09-20` | [Scoped apps and cross-scope privileges](entries/2026/2026-09-20.md) |
 | `2026-09-19` | [`GlideRecordSecure` vs `GlideRecord`: what "secure" covers](entries/2026/2026-09-19.md) |
 | `2026-09-18` | [ACL evaluation order, and why a read ACL on a field silently wins](entries/2026/2026-09-18.md) |
 | `2026-09-17` | [Display business rules and the `g_scratchpad` round trip](entries/2026/2026-09-17.md) |

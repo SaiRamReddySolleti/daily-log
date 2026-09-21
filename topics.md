@@ -13,7 +13,7 @@ when the list runs dry the workflow proposes a new topic instead of stopping.
 - [x] ACL evaluation order, and why a read ACL on a field silently wins
 - [x] `GlideRecordSecure` vs `GlideRecord`: what "secure" covers
 - [x] Scoped apps and cross-scope privileges
-- [ ] Update sets: what they capture and what they quietly do not
+- [x] Update sets: what they capture and what they quietly do not
 - [ ] Table rotation and why audit tables grow the way they do
 - [ ] Dictionary overrides on extended tables
 - [ ] The `sys_id` as a foreign key: reference qualifiers under load

@@ -15,7 +15,7 @@ when the list runs dry the workflow proposes a new topic instead of stopping.
 - [x] Scoped apps and cross-scope privileges
 - [x] Update sets: what they capture and what they quietly do not
 - [x] Table rotation and why audit tables grow the way they do
-- [ ] Dictionary overrides on extended tables
+- [x] Dictionary overrides on extended tables
 - [ ] The `sys_id` as a foreign key: reference qualifiers under load
 - [ ] Dynamic reference qualifiers vs advanced ones
 - [ ] Domain separation: the query modifier you cannot see

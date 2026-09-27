@@ -8,12 +8,13 @@ Written and committed automatically each morning by a
 [GitHub Actions workflow](.github/workflows/daily-log.yml); the topic backlog
 lives in [`topics.md`](topics.md).
 
-**10 entries** · browse them all in [`entries/`](entries/)
+**11 entries** · browse them all in [`entries/`](entries/)
 
 ## Recent
 
 | Date | Entry |
 | --- | --- |
+| `2026-09-27` | [The `sys_id` as a foreign key: reference qualifiers under load](entries/2026/2026-09-27.md) |
 | `2026-09-26` | [Dictionary overrides on extended tables](entries/2026/2026-09-26.md) |
 | `2026-09-25` | [Table rotation and why audit tables grow the way they do](entries/2026/2026-09-25.md) |
 | `2026-09-21` | [Update sets: what they capture and what they quietly do not](entries/2026/2026-09-21.md) |

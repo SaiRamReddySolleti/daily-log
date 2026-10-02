@@ -18,7 +18,7 @@ when the list runs dry the workflow proposes a new topic instead of stopping.
 - [x] Dictionary overrides on extended tables
 - [x] The `sys_id` as a foreign key: reference qualifiers under load
 - [x] Dynamic reference qualifiers vs advanced ones
-- [ ] Domain separation: the query modifier you cannot see
+- [x] Domain separation: the query modifier you cannot see
 - [ ] Scheduled jobs, `sys_trigger`, and duplicate execution
 - [ ] Event queue vs Flow Designer triggers
 - [ ] `gs.eventQueue` payload limits and how people work around them badly

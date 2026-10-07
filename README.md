@@ -8,12 +8,13 @@ Written and committed automatically each morning by a
 [GitHub Actions workflow](.github/workflows/daily-log.yml); the topic backlog
 lives in [`topics.md`](topics.md).
 
-**14 entries** · browse them all in [`entries/`](entries/)
+**15 entries** · browse them all in [`entries/`](entries/)
 
 ## Recent
 
 | Date | Entry |
 | --- | --- |
+| `2026-10-07` | [Event queue vs Flow Designer triggers](entries/2026/2026-10-07.md) |
 | `2026-10-04` | [Scheduled jobs, `sys_trigger`, and duplicate execution](entries/2026/2026-10-04.md) |
 | `2026-10-02` | [Domain separation: the query modifier you cannot see](entries/2026/2026-10-02.md) |
 | `2026-10-01` | [Dynamic reference qualifiers vs advanced ones](entries/2026/2026-10-01.md) |
@@ -27,7 +28,6 @@ lives in [`topics.md`](topics.md).
 | `2026-09-17` | [Display business rules and the `g_scratchpad` round trip](entries/2026/2026-09-17.md) |
 | `2026-09-16` | [Before vs after vs async business rules: the ordering that bites you](entries/2026/2026-09-16.md) |
 | `2026-09-15` | [Why `setWorkflow(false)` is not a performance optimisation](entries/2026/2026-09-15.md) |
-| `2026-09-14` | [GlideRecord vs GlideAggregate: when the row count actually matters](entries/2026/2026-09-14.md) |
 
 ---
 

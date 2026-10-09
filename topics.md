@@ -21,7 +21,7 @@ when the list runs dry the workflow proposes a new topic instead of stopping.
 - [x] Domain separation: the query modifier you cannot see
 - [x] Scheduled jobs, `sys_trigger`, and duplicate execution
 - [x] Event queue vs Flow Designer triggers
-- [ ] `gs.eventQueue` payload limits and how people work around them badly
+- [x] `gs.eventQueue` payload limits and how people work around them badly
 
 ## ServiceNow — Flow Designer, IntegrationHub, AI
 
